@@ -1,0 +1,54 @@
+CRITICAL - 2022-06-03 15:13:20 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 15:13:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 15:13:55 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 15:39:07 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 15:51:25 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 15:51:27 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(28): require('D:\\Xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-03 09:07:50 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp\\htdocs...')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-03 09:09:42 --> syntax error, unexpected token "}", expecting ";"
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Xampp\\htdocs...')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
