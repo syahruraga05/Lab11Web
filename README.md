@@ -87,13 +87,161 @@ Fokus kita pada folder **app**, dimana folder tersebut adalah area kerja kita un
 membuat aplikasi. Dan folder **public** untuk menyimpan aset web seperti css, gambar, javascript, dll. <br>
 
 ### **Memahami Konsep MVC** <br>
-Codeigniter menggunakan konsep MVC. MVC meripakan singkatan dari
-Model-View-Controller. MVC merupakan konsep arsitektur yang umum digunakan
-dalam pengembangan aplikasi. Konsep MVC adalah memisahkan kode program
-berdasarkan logic proses, data, dan tampilan. Untuk logic proses diletakkan pada
-direktori Contoller, Objek data diletakkan pada direktori Model, dan desain tampilan
-diletakkan pada direktori View. <br>
+Codeigniter menggunakan konsep MVC. MVC meripakan singkatan dari Model-View-Controller. MVC merupakan konsep arsitektur yang umum digunakan dalam pengembangan aplikasi. Konsep MVC adalah memisahkan kode program berdasarkan logic proses, data, dan tampilan. Untuk logic proses diletakkan pada direktori Contoller, Objek data diletakkan pada direktori Model, dan desain tampilan diletakkan pada direktori View. <br>
 
 Codeigniter menggunakan konsep pemrograman berorientasi objek dalam mengimplementasikan konsep MVC <br>
 
-**Model** merupakan kode program yang berisi pemodelan data
+**Model** merupakan kode program yang berisi pemodelan data. Data dapat berupa database ataupun sumber lainnya. <br>
+
+**View** merupakan kode program yang berisi bagian yang menangani terkait tampilan user interface sebuah aplikasi. didalam aplikasi web biasanya pasti akan berhubungan dengan html dan css. <br>
+
+**Controller** merupakan kode program yang berkaitan dengan logic proses yang menghubungkan antara view dan model. Controller berfungsi untuk menerima request dan data dari user kemudian diproses dengan menghubungkan bagian model dan view. <br>
+
+**Routing dan Controller** <br>
+Routing merupakan proses yang mengatur arah atau rute dari request untuk menentukan fungsi/bagian mana yang akan memproses request tersebut. Pada framework CI4, routing bertujuan untuk menentukan Controller mana yang harus merespon sebuah request. Controller adalah class atau script yang bertanggung jawab merespon sebuah request. <br>
+
+Pada Codeigniter, request yang diterima oleh file index.php akan diarahkan ke Router untuk meudian oleh router tersebut diarahkan ke Controller. <br>
+
+Router terletak pada file **app/config/Routes.php**
+![Gambar](/gambar/Capture11.PNG)<br>
+
+Pada file tersebut kita dapat mendefinisikan route untuk aplikasi yang kita buat. <br>
+
+Contoh:
+```$routes->get('/', 'Home::index');```
+<br>
+Kode tersebut akan mengarahkan rute untuk halaman home <br>
+
+### **Membuat Route Baru** <br>
+Tambahkan kode berikut ini di dalam **Routes.php** <br>
+
+```
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+```
+
+Untuk mengetahui route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut. <br>
+``` php spark routes ```
+![Gambar](/gambar/Capture12.PNG)<br>
+
+Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat url http://localhost:8080/about
+![Gambar](/gambar/Capture13.PNG)<br>
+
+Ketika diakses akan mucul tampilan error 404 file not found, itu artinya file/page tersebut tidak ada. Untuk dapat mengakses halaman tersebut, harus dibuat terlebih dahulu Contoller yang sesuai dengan routing yang dibuat yaitu Contoller Page. <br>
+
+### **Membuat Controller** <br>
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama page.php pada direktori Controller kemudian isi kodenya seperti betikut. <br>
+![Gambar](/gambar/Capture14.PNG)<br>
+
+Selanjutnya refresh kembali browser, maka akan ditampilkan hasilnya yaitu halaman sudah dapat diakses.
+![Gambar](/gambar/Capture15.PNG)<br>
+
+### **Auto Routing** <br>
+Secara default fitur _autoruote_ pada Codeigniter sudah aktif. untuk mengubah status autorute dapat mengubah nilai variabelnya. untuk menonaktifkan ubah nilai **true** menjadi **false**.
+```$routes->setAutoRoute(true);```
+
+Tambahkan method baru pada **Controller Page** seperti berikut.
+![Gambar](/gambar/Capture16.PNG)<br>
+
+Method in belum ada pada **routing**, sehingga cara mengaksesnya dengan menggunakan alamat: http://localhost:8080/page/tos 
+![Gambar](/gambar/Capture17.PNG)<br>
+
+### **Membuat View** <br>
+Selanjutnya adalah membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama about.php pada direktori view (**app/view/about.php) kemudian isi kodenya seperti berikut.
+![Gambar](/gambar/Capture18.PNG)<br>
+
+Ubah **method about** pada class **Controller Page** menjadi seperti berikut:
+![Gambar](/gambar/Capture19.PNG)<br>
+
+Kemudian lakukan refresh pada halaman tersebut.<br>
+![Gambar](/gambar/Capture20.PNG)<br>
+
+### **Membuat Layout Web dengan CSS**
+Pada dasarnya layout web dengan css dapat diimplamentasikan dengan mudah pada codeigniter. Yang perlu diketahui adalah, pada Codeigniter 4 file yang menyimpan asset css dan javascript terletak pada direktori **public**.<br>
+
+Buat file css pada direktori **public** dengan nama **style.css**. <br>
+![Gambar](/gambar/Capture20.PNG)<br>
+
+Kemudian buat folder **template** pada direktori **view** kemudian buat file **header.php** dan **footer.php** <br>
+
+File **app/view/template/header.php**<br>
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <title><?= $title; ?></title>
+    <meta name=”viewport” content=”widthdevice-width, initial-scale=1.0″>
+    <link rel="stylesheet" href="<?= base_url('/style.css');?>">
+</head>
+<body>
+    <script src=”http://code.jquery.com/jquery.js”></script>
+    <script src=”js/bootstrap.min.js”></script>
+    <div class="header">
+        <div class="jarak">
+            <h2>Layout Sederhana</h2>
+        </div>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="jarak">
+            <!-- kiri -->
+            <div class="kiri">
+                <!-- blog -->
+                <div class="border">
+                    <div class="jarak">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, [...]</p>
+                        <button class="btn">Read More ..</button>
+                    </div>
+                </div>
+                <!-- end blog -->
+                <!-- blog -->
+                <div class="border">
+                    <div class="jarak">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, [...]</p>
+                        <button class="btn">Read More ..</button>
+                    </div>
+                </div>
+                <!-- end blog -->
+            </div>
+            <!-- kiri -->
+            <!-- kanan -->
+            <div class="kanan">
+                <div class="jarak">
+                    <h3>CATEGORY</h3>
+                    <hr/>
+                    <p><a href="#" class="undecor">HTML</a></p>
+                    <p><a href="#" class="undecor">CSS</a></p>
+                    <p><a href="#" class="undecor">BOOTSTRAP</a></p>
+                </div>
+            </div>
+            <!-- kanan -->
+        </div>
+    </div>
+```
+<br>
+
+File **app/view/template/footer.php**
+```
+<div class="footer">
+        <div class="jarak">
+            <p>Dibuat Pada April 2022</p>
+        </div>
+</div>
+```
+<br>
+
+Selanjutnya refresh tampilan pada alamat http://localhost:8080/about <br>
+![Gambar](/gambar/Capture22.PNG)<br>
+
+# **Pertanyaan dan Tugas**
+Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
