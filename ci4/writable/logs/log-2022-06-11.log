@@ -1,0 +1,6 @@
+CRITICAL - 2022-06-11 16:26:41 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+#0 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbs...')
+#1 D:\Xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 D:\Xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 D:\Xampp\htdocs\Praktikum11\ci4\spark(45): require('D:\\Xampp\\htdocs...')
+#4 {main}

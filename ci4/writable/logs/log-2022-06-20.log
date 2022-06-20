@@ -1,0 +1,194 @@
+CRITICAL - 2022-06-20 13:49:32 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\Praktikum11\ci4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\Praktikum11\ci4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-20 06:50:41 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 06:54:50 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 06:57:36 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 06:58:01 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 06:58:44 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 06:59:25 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:20:29 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:20:31 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:21:05 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:24:53 --> Invalid file: app/views/artikel/index.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/views/artik...')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('app/views/artik...', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Artikel.php(14): view('app/views/artik...', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->index()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:26:52 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:28:34 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:34:34 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:34:35 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:37:39 --> Invalid file: artikel.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel.php')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Page.php(10): view('artikel', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-06-20 07:38:19 --> Invalid file: template/admin_header.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_...')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(424): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#6 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Page.php(10): view('artikel/admin_i...', Array)
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Page->artikel()
+#8 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+#9 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-20 07:50:52 --> Invalid file: template/admin_header.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/admin_...')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(424): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#6 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Artikel.php(35): view('artikel/admin_i...', Array)
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#8 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-20 08:30:43 --> Invalid file: artikel/form_add.php
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('artikel/form_ad...')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/form_ad...', Array, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Artikel.php(55): view('artikel/form_ad...', Array)
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->add()
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

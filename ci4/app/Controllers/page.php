@@ -4,6 +4,12 @@ namespace App\Controllers;
 
 class Page extends BaseController
 {
+	public function artikel()
+	{
+		return view('artikel', [
+			'title' => 'Halaman Artikel'
+		]);
+	}	
 	public function about()
 	{
 		return view('about', [
@@ -14,7 +20,9 @@ class Page extends BaseController
 	
 	public function contact()
 	{
-		echo "Ini halaman Contact";
+		return view('contact', [
+			'title' => 'Halaman Contact'
+		]);
 	}
 	
 	public function faqs()
@@ -25,5 +33,5 @@ class Page extends BaseController
 	public function tos()
 	{
 		echo "ini halaman term of services";
-	}	
+	}
 }
