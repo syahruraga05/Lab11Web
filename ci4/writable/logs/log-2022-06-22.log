@@ -1,0 +1,34 @@
+CRITICAL - 2022-06-22 10:04:28 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-22 10:04:49 --> Class "Config\App\Filters\Auth" not found
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('admin/artikel', 'before')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-06-22 10:21:32 --> syntax error, unexpected token "[", expecting ";" or "{"
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('user/login')
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/login')
+#2 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-22 10:26:13 --> syntax error, unexpected token "?", expecting end of file
+#0 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(424): CodeIgniter\View\View->render('template/admin_...', NULL, true)
+#2 C:\xampp\htdocs\Praktikum11\ci4\app\Views\artikel\admin_index.php(1): CodeIgniter\View\View->include('template/admin_...')
+#3 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Praktikum11\ci4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Praktikum11\ci4\system\Common.php(1089): CodeIgniter\View\View->render('artikel/admin_i...', Array, true)
+#6 C:\xampp\htdocs\Praktikum11\ci4\app\Controllers\Artikel.php(35): view('artikel/admin_i...', Array)
+#7 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(832): App\Controllers\Artikel->admin_index()
+#8 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Artikel))
+#9 C:\xampp\htdocs\Praktikum11\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Praktikum11\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Praktikum11\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
